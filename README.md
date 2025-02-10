@@ -56,9 +56,10 @@ Steps:
 9. Customer Segmentation: Use bars and pie-charts to group customers by similar characteristics, and visualize these groups to understand churn patterns better.
 10. Imbalanced Dataset: Only 16.07% of customers have churned
 
-## Dashboard
+## Dashboard Visualisation
 
 ### Power BI https://app.powerbi.com/groups/me/reports/c4eb83c2-591d-49c3-b9fe-39572734e34c/02489e3782d86b16c45c?ctid=c233c072-135b-431d-af59-35e05babf941&experience=power-bi
+![image](https://github.com/user-attachments/assets/f28143f0-a349-460b-b43f-555439db7ea7)
 
 
 Use of AI Tools:
