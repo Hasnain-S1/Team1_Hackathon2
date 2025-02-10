@@ -87,3 +87,15 @@ You can now use the `heroku` CLI program - try running `heroku apps` to confirm 
 4. Select the branch you want to deploy, then click Deploy Branch.
 5. The deployment process should happen smoothly if all deployment files are fully functional. Click now the button Open App on the top of the page to access your App.
 6. If the slug size is too large then add large files not required for the app to the .slugignore file.
+
+## Ethical considerations Data Privacy 
+Customer IDs were anonymized to protect personal data.
+
+## Bias and Fairness
+The dataset was checked for sampling bias to ensure accurate analysis.
+
+## Legal Compliance
+The data was used within the permitted scope of the Kaggle license.
+
+## Gratitude 
+Thank all members of the team for hard work, passion, and the positive energy they brought to every step of this project.
