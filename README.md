@@ -1,56 +1,69 @@
 # ![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
 
-## Template Instructions
+## Team 1 Hackathon 2
 
-Welcome,
+## Hackathon2 Project: Credit Card Churn Prediction
 
-This is the Code Institute student template for the Data Analytics capstone project. We have preinstalled all of the tools you need to get started. It's perfectly okay to use this template as the basis for your project submissions. Click the `Use this template` button above to get started.
+The Hackathon2 project aims to predict customer churn in the credit card sector using customer data. By analyzing factors such as credit card usage, income, and transaction activity, the goal is to identify potential churn risks, allowing businesses to take proactive measures to retain high-risk customers. This project will enable banks to improve customer retention strategies, increase customer satisfaction, and ultimately reduce the churn rate.
 
-You can safely delete the Template Instructions section of this README.md file and modify the remaining paragraphs for your own project. Please do read the Template Instructions at least once, though! It contains some important information about the IDE and the extensions we use.
+## Dataset Content
 
-## How to use this repo
+The dataset contains detailed customer information, including:
+Customer Information: Age, marital status, income, credit card limit, and card category.
+Credit Card Usage: Total credit limit, average utilization ratio, transaction volumes, and balances.
+Behavioral Data: Customer relationship count, transaction frequencies, and months inactive.
+This dataset is ideal for understanding customer spending behavior, predicting churn, and optimizing customer retention efforts. The dataset is available at https://www.kaggle.com/datasets/sakshigoyal7/credit-card-customers/data
 
-1. Use this template to create your GitHub project repo. Click the Use this template button, then click Create a new repository.
+## Business Requirements
 
-1. Copy the URL of your repository to your clipboard.
+The project addresses the following business requirements:
 
-1. In VS Code, select File - Open Folder.
+1. Predict customers who are likely to churn based on their usage behavior.
+2. Identify patterns in transaction activity and credit utilization that influence churn.
+3. Recommend strategies to retain high-risk customers.
+4. Investigate how demographic factors (e.g., age, marital status) influence churn likelihood.
 
-1. Select your vscode-projects folder, then click the Select Folder button on Windows, or Open button on Mac.
+## Hypotheses and How to Validate
 
-1. From the top menu in VS Code, select Terminal > New Terminal to open the terminal.
+### Hypotheses:
 
-1. In the terminal, type git clone followed by the URL of your GitHub repository. Then hit Enter. This command will download all the files in your GitHub repository into your vscode-projects folder.
+1.Churned customers exhibit different spending behaviors than retained customers.
+2. Higher-income customers tend to have higher credit limits, but anomalies may exist.
+3. Customers with low transaction activity are more likely to churn.
+4. Higher credit utilization and transaction volume are strong indicators of churn risk.
+5. Customers with "Blue" card category are less likely to churn due to better utilization.
+6. Male customers have a lower open-to-buy ratio, increasing their likelihood of churn.
+7. Customers with more relationships are more likely to churn.
 
-1. In VS Code, select File > Open Folder again.
+## Validation Steps:
 
-1. This time, navigate to and select the folder for the project you just downloaded. Then, click Select Folder.
+Analyze transaction activity and churn rates to identify behavioral patterns.
+Use correlation analysis to explore relationships between customer attributes and churn.
+Test different retention strategies based on spending behavior and customer segments.
 
-1. A virtual environment is necessary when working with Python projects to ensure each project's dependencies are kept separate from each other. You need to create your virtual environment, also called a venv, and then ensure that it is activated any time you return to your workspace.
-Click the gear icon in the lower left-hand corner of the screen to open the Manage menu and select Command Palette to open the VS Code command palette.
+## Project Plan
 
-1. In the command palette, type: create environment and select Python: Create Environment…
+Steps:
 
-1. Choose Venv from the dropdown list.
+1. Data Collection: Load the dataset from the provided source.
+2. Data Cleaning: Handle missing values, check duplicates, and standardize formats.
+3. Data Transformation: Nothing to clean as the dataset had no duplicates or missing values.
+4. Analysis: Perform exploratory data analysis, trend analysis, and correlation analysis
+5. Modeling: Predict churn.
+6. Visualization: Build dashboards to present insights and predictions.
+7. Churn Prediction: Create a model to predict churn risk using customer demographics and behaviors. Visualizations like heatmaps and bar charts will help show the most significant factors influencing churn.
+8. Credit Utilization Analysis: A scatter plot or box plot will help compare the utilization rate of customers who churn vs. those who stay.
+9. Customer Segmentation: Use bars and pie-charts to group customers by similar characteristics, and visualize these groups to understand churn patterns better.
+10. Imbalanced Dataset: Only 16.07% of customers have churned
 
-1. Choose the Python version you installed earlier. Currently, we recommend Python 3.12.8
+## Dashboard
 
-1. DO NOT click the box next to requirements.txt, as you need to do more steps before you can install your dependencies. Click OK.
+### Power BI https://app.powerbi.com/groups/me/reports/c4eb83c2-591d-49c3-b9fe-39572734e34c/02489e3782d86b16c45c?ctid=c233c072-135b-431d-af59-35e05babf941&experience=power-bi
 
-1. You will see a .venv folder appear in the file explorer pane to show that the virtual environment has been created.
 
-1. Important: Please add the .venv to your .gitignore file
+Use of AI Tools:
+ChatGPT was utilized for brainstorming hypotheses, improving code, and optimizing the model.
 
-1. Return to the terminal by clicking on the TERMINAL tab or click on the Terminal menu and choose New Terminal if no terminal is currently open.
-
-1. In the terminal, use the command below to install your dependencies. This may take several minutes.
- `pip3 install -r requirements.txt`
-
-1. Open the jupyter_notebooks directory, and click on the notebook you want to open.
-
-1. Click the kernel button and choose Python Environments.
-
-Note that the kernel says Python 3.12.2 as it inherits from the workspace, so it will be Python-3.12.2 as installed by our template. To confirm this, you can use `! python --version` in a notebook code cell.
 
 ## Cloud IDE Reminders
 
